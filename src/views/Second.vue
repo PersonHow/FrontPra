@@ -62,7 +62,7 @@ export default {
             <ul>
                 <li>
                     <a href="#" class="logo">
-                        <img src="../../public/seaPeace.png" alt="">
+                        <!-- <img src="D:\Programming\InFrontOf\FrontPra\public\seaPeace.png" alt=""> -->
                         <span class="nav-item">DashBoard</span>
                     </a>
                 </li>
