@@ -21,7 +21,12 @@ const router = createRouter({
       path:'/cardTest',
       name:'cardTest',
       component :() => import('../views/cardTest.vue')
-    }
+    },
+    {
+      path:'/NavieUI',
+      name:'NavieUI',
+      component :() => import('../views/NavieUI.vue')
+    },
   ]
 })
 

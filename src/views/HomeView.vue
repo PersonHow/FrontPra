@@ -1,5 +1,14 @@
 <script>
+import childSlot from '../components/childSlot.vue'
 export default {
+  data(){
+    return{
+      test:"coo"
+    }
+  },
+  components:{
+    childSlot
+  }
 }
 
 </script>

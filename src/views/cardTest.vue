@@ -53,7 +53,7 @@ export default {
                 </template>
                 <template v-slot:content>
 
-                    <p slot="content">Lorem ipsum dolor sit amet consectetur adipisicing elit.fuga placeat!</p>
+                    <p >Lorem ipsum dolor sit amet consectetur adipisicing elit.fuga placeat!</p>
                 </template>
             </cards>
         </div>
