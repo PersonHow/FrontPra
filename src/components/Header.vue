@@ -15,6 +15,8 @@ export default {
         <RouterLink to="/Second" class="routerItem"><i class="fa-solid fa-bars"></i><span>Second</span></RouterLink>
         <RouterLink to="/cardTest" class="routerItem"><i class="fa-solid fa-hippo"></i><span>cardTest</span></RouterLink>
         <RouterLink to="/NavieUI" class="routerItem"><i class="fa-solid fa-n"></i><span>NavieUI</span> </RouterLink>
+        <RouterLink to="/ChartsTest" class="routerItem"><i class="fa-solid fa-c"></i><span>ChartsTest</span> </RouterLink>
+        <RouterLink to="/SetUp" class="routerItem"><i class="fa-solid fa-s"></i><span>SetUp</span> </RouterLink>
     </div>
 </template>
 
@@ -77,7 +79,7 @@ export default {
 
     }
 
-    @keyframes slide-up {
+    @keyframes slide-up { // 文字
         0% {
             opacity: 0;
             transform: translate(0, 5px);

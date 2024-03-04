@@ -27,6 +27,16 @@ const router = createRouter({
       name:'NavieUI',
       component :() => import('../views/NavieUI.vue')
     },
+    {
+      path:'/ChartsTest',
+      name:'ChartsTest',
+      component:() => import('../views/ChartsTest.vue')
+    },
+    {
+      path:'/SetUp',
+      name:'SetUp',
+      component:() => import('../views/SetUp.vue')
+    },
   ]
 })
 
